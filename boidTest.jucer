@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="pwJKxq" name="boidTest" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.boidTest" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="NLHKIn" name="boidTest">
+    <GROUP id="{DCBA3702-F2D2-BDF0-0AF5-87DAC4F02AEF}" name="Source">
+      <FILE id="zzQerL" name="Boid.h" compile="0" resource="0" file="Source/Boid.h"/>
+      <FILE id="K2ZEYD" name="Boid.cpp" compile="1" resource="0" file="Source/Boid.cpp"/>
+      <FILE id="gWPNTu" name="Boids.h" compile="0" resource="0" file="Source/Boids.h"/>
+      <FILE id="BPhZ4G" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="Yp1pLv" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Fj8Tda" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="boidTest"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="boidTest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Dev/git/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <ANDROID targetFolder="Builds/Android" androidVersionCode="1" androidActivityClass="com.yourcompany.boidtest.boidTest"
+             androidMinimumSDK="10" androidInternetNeeded="1" androidKeyStore="${user.home}/.android/debug.keystore"
+             androidKeyStorePass="android" androidKeyAlias="androiddebugkey"
+             androidKeyAliasPass="android" androidCpp11="1" androidSDKPath="/usr/local/opt/android-sdk"
+             androidNDKPath="/usr/local/opt/android-ndk">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" androidArchitectures="armeabi armeabi-v7a" isDebug="1"
+                       optimisation="1" targetName="boidTest"/>
+        <CONFIGURATION name="Release" androidArchitectures="armeabi armeabi-v7a" isDebug="0"
+                       optimisation="3" targetName="boidTest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Dev/git/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Dev/git/JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROID>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
